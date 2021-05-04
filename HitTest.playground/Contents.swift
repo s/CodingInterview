@@ -13,26 +13,22 @@ extension UIView {
             return nil
         }
         
+        var hitView: UIView? = self
+        
         if !self.point(inside: point, with: event) {
-            return nil
-        }
-        
-        var hitFlag: Bool = false
-        var hitView: UIView? = nil
-        var children: [UIView] = []
-        children.append(contentsOf:subviews)
-        
-        while !hitFlag || !children.isEmpty {
-            guard let childToConsider = children.popLast() else {
-                continue
+            if clipsToBounds {
+                return nil
+            } else {
+                hitView = nil
             }
-            if let hv = childToConsider.hitTest(point, with: event) {
-                hitFlag = true
-                hitView = hv
-            }
-            children.append(contentsOf: childToConsider.subviews)
         }
-        
+
+        for subview in subviews.reversed() {
+            let translatedPoint = subview.convert(point, from: self)
+            if let _ = subview.hitTest(translatedPoint, with: event) {
+                return subview
+            }
+        }
         return hitView
     }
 }
