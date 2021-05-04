@@ -11,7 +11,7 @@
  - [Is Unique](Is%20Unique)
  - [Check Permutation](Check%20Permutation)
  - [URLify](Urlify)
- - [Palindrome Permutation](Palindrome%Permutation)
+ - [Palindrome Permutation](Palindrome%20Permutation)
  - [One Away](One%20Away)
  - [String Compression](String%20Compression)
  - [Rotate Matrix](Rotate%20Matrix)
