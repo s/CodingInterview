@@ -5,5 +5,7 @@
         <page name='Is Unique'/>
         <page name='Check Permutation'/>
         <page name='URLify'/>
+        <page name='Palindrome Permutation'/>
+        <page name='One Away'/>
     </pages>
 </playground>
