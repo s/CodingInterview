@@ -8,5 +8,7 @@
         <page name='Palindrome Permutation'/>
         <page name='One Away'/>
         <page name='Rotational Chipper'/>
+        <page name='Maximum Depth of Binary Tree'/>
+        <page name='LRU Cache'/>
     </pages>
 </playground>
