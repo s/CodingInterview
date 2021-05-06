@@ -7,5 +7,6 @@
         <page name='URLify'/>
         <page name='Palindrome Permutation'/>
         <page name='One Away'/>
+        <page name='Rotational Chipper'/>
     </pages>
 </playground>
