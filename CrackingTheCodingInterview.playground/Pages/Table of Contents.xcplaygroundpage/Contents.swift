@@ -133,6 +133,7 @@
 - [Valid Parentheses](Valid%20Parentheses)
 - [Verifying an Alien Dictionary](Verifying%20an%20Alien%20Dictionary)
 - [K Closest Points to Origin](K%20Closest%20Points%20to%20Origin)
+- [First Bad Version](First%20Bad%20Version)
 */
 
 /*:

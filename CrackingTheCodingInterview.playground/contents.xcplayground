@@ -15,5 +15,6 @@
         <page name='Valid Parentheses'/>
         <page name='Verifying an Alien Dictionary'/>
         <page name='K Closest Points to Origin'/>
+        <page name='First Bad Version'/>
     </pages>
 </playground>
