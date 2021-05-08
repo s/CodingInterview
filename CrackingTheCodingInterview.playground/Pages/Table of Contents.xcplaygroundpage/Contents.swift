@@ -129,7 +129,10 @@
  
  ### 17. Easy Questions
 - [Maximum Depth of Binary Tree](Maximum%20Depth%20of%20Binary%20Tree)
-
+- [Climbing Stairs](Climbing%20Stairs)
+- [Valid Parentheses](Valid%20Parentheses)
+- [Verifying an Alien Dictionary](Verifying%20an%20Alien%20Dictionary)
+- [K Closest Points to Origin](K%20Closest%20Points%20to%20Origin)
 */
 
 /*:
