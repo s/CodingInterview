@@ -135,6 +135,7 @@
 - [K Closest Points to Origin](K%20Closest%20Points%20to%20Origin)
 - [First Bad Version](First%20Bad%20Version)
 - [Pair Sums](Pair%20Sums)
+- [Binary Tree Right Side View](Binary%20Tree%20Right%20Side%20View)
 */
 
 /*:

@@ -17,5 +17,7 @@
         <page name='K Closest Points to Origin'/>
         <page name='First Bad Version'/>
         <page name='Pair Sums'/>
+        <page name='Reverse Linked List'/>
+        <page name='Binary Tree Right Side View'/>
     </pages>
 </playground>
