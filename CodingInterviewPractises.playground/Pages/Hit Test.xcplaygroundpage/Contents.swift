@@ -1,3 +1,5 @@
+//: [Previous](@previous)
+
 /*:
  Hit test implementation
  */
@@ -12,7 +14,6 @@ extension UIView {
         else {
             return nil
         }
-        
         
         var hitView: UIView? = self
         
@@ -33,3 +34,6 @@ extension UIView {
         return hitView
     }
 }
+
+
+//: [Next](@next)

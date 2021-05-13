@@ -6,5 +6,27 @@
         <page name='Length of Longest Substring'/>
         <page name='Median of Two Sorted Arrays'/>
         <page name='Two Sum'/>
+        <page name='Binary Tree Right Side View'/>
+        <page name='Check Permutation'/>
+        <page name='Climbing Stairs'/>
+        <page name='First Bad Version'/>
+        <page name='Is Unique'/>
+        <page name='K Closest Points to Origin'/>
+        <page name='LRU Cache'/>
+        <page name='Maximum Depth of Binary Tree'/>
+        <page name='Number of Visible Nodes'/>
+        <page name='One Away'/>
+        <page name='Pair Sums'/>
+        <page name='Palindrome Permutation'/>
+        <page name='Product of Array Except Self '/>
+        <page name='Reverse Linked List'/>
+        <page name='Reverse Operations'/>
+        <page name='Rotational Chipper'/>
+        <page name='Hit Test'/>
+        <page name='URLify'/>
+        <page name='Valid Palindrome'/>
+        <page name='Valid Parentheses'/>
+        <page name='Validate Binary Search Tree'/>
+        <page name='Verifying an Alien Dictionary'/>
     </pages>
 </playground>
