@@ -44,42 +44,9 @@
  */
 import Foundation
 
-
-private extension Node {
-    func update(newNext:Node?) -> Node {
-        Node(data:self.data, next:newNext)
-    }
-}
-
-func reverseLinkedList(_ root: Node?) -> (prev:Node?, next:Node?) {
-    print("Starting reversal of:\(root?.data)")
-    var prev: Node? = nil
-    var cur: Node? = root
-    var tmp: Node? = nil
-    while cur?.nextNode != nil, let data = cur?.data, data % 2 == 0 {
-        tmp = cur?.nextNode
-        cur = cur?.update(newNext: prev)
-        prev = cur
-        cur = tmp
-    }
-    
-    if cur == nil {
-        return (prev: prev, next: nil)
-    }
-    return (prev: prev, next: cur)
-}
-
-func _print(_ root: Node) {
-    var cur: Node? = root
-    while cur != nil {
-        print(cur!.data)
-        cur = cur?.nextNode
-    }
-}
-
 class Node {
     let data: Int
-    let nextNode: Node?
+    var nextNode: Node?
     
     init(data: Int, next: Node? = nil) {
         self.data = data
@@ -88,25 +55,41 @@ class Node {
 }
 
 private extension Node {
+    func update(with nextNode:Node?) -> Node {
+        Node(data: data, next: nextNode)
+    }
+}
+
+func reverseEvens( head: inout Node) -> Node {
+    var prev: Node? = nil
+    var cur: Node? = head
+    var tmp: Node? = nil
+    
+    while cur != nil, let d = cur?.data, d % 2 == 0 {
+        tmp = cur?.nextNode
+        cur?.nextNode = prev
+        prev = cur
+        cur = tmp
+    }
+    head.nextNode = cur
+    return prev!
+}
+// dummy, 1, 2, 8, 9, 12, 16
+private extension Node {
     func reverse() -> Node {
-        guard nextNode != nil else { return self }
-        
+        let dummy = Node(data: Int.max - 1, next: self)
+        var prev: Node? = dummy
         var cur: Node? = self
-        var prev: Node? = Node(data: 0)
-        var dummy = Node(data: 0)
-        var ans: [Node] = []
         
         while cur != nil {
-            if let d = cur?.data, d % 2 == 1 {
-                prev = cur
-                cur = cur?.nextNode
-            } else {
-                let (newHead, nextPart) = reverseLinkedList(cur)
-                prev = prev?.update(newNext: newHead)
-                cur = cur?.update(newNext: nextPart)
-                cur = cur?.nextNode
+            if let d = cur?.data, d % 2 == 0 {
+                prev?.nextNode = reverseEvens(head: &cur!)
             }
+            
+            prev = cur
+            cur = cur?.nextNode
         }
+        
         return dummy.nextNode!
     }
 }
