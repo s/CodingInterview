@@ -56,7 +56,7 @@ class Solution {
         cur?.next = prev
         return cur
     }
-    
+
     func reverseList(_ head: ListNode?) -> ListNode? {
         return _reverseList(head, prev: nil)
     }

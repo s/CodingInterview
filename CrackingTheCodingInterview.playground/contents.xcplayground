@@ -21,5 +21,6 @@
         <page name='Binary Tree Right Side View'/>
         <page name='Number of Visible Nodes'/>
         <page name='Valid Palindrome'/>
+        <page name='Reverse Operations'/>
     </pages>
 </playground>
