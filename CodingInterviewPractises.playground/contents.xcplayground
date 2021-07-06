@@ -28,5 +28,7 @@
         <page name='Valid Parentheses'/>
         <page name='Validate Binary Search Tree'/>
         <page name='Verifying an Alien Dictionary'/>
+        <page name='Number of Islands'/>
+        <page name='Contains Duplicate'/>
     </pages>
 </playground>

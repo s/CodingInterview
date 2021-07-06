@@ -17,6 +17,7 @@
  - [Rotate Matrix](Rotate%20Matrix)
  - [Zero Matrix](Zero%20Matrix)
  - [String Rotation](String%20Rotation)
+ - [Contains Duplicate](Contains%20Duplicate)
  
  ### 2. Linked Lists
  - [Remove Dups](Remove%20Dups)
@@ -143,6 +144,7 @@
  - [Product of Array Except Self](Product%20of%20Array%20Except%20Self)
  - [Add Two Numbers](Add%20Two%20Numbers)
  - [Length of Longest Substring](Length%20of%20Longest%20Substring)
+ - [Number of Islands](Number%20of%20Islands)
  
  ### 19. Hard Questions
  - [Median of Two Sorted Arrays](Median%20of%20Two%20Sorted%20Arrays)

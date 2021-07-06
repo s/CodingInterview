@@ -31,7 +31,22 @@ public class TreeNode {
 
 class Solution {
     func isValidBST(_ root: TreeNode?) -> Bool {
-        return true
+        return validate(root, max:nil, min:nil)
+    }
+    
+    func validate(_ root: TreeNode?, max: Int?, min: Int?) -> Bool {
+        guard let root = root else { return true }
+        if let max = max {
+            if root.val >= max {
+                return false
+            }
+        }
+        if let min = min {
+            if root.val <= min {
+                return false
+            }
+        }
+        return validate(root.left, max: root.val, min: min) && validate(root.right, max: max, min: root.val)
     }
 }
 

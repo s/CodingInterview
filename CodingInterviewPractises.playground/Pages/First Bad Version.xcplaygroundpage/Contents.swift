@@ -75,7 +75,7 @@ class Solution : VersionControl {
         return left
     }
     
-    func firstBadVersion(_ n: Int) -> Int {
+    func ___firstBadVersion(_ n: Int) -> Int {
         guard n > 0 else { return 0 }
         guard n > 1 else { return isBadVersion(1) ? 1 : 0 }
         
