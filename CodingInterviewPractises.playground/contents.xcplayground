@@ -30,5 +30,6 @@
         <page name='Verifying an Alien Dictionary'/>
         <page name='Number of Islands'/>
         <page name='Contains Duplicate'/>
+        <page name='Valid Anagram'/>
     </pages>
 </playground>

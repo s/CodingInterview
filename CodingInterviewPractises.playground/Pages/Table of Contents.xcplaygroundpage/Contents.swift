@@ -18,6 +18,7 @@
  - [Zero Matrix](Zero%20Matrix)
  - [String Rotation](String%20Rotation)
  - [Contains Duplicate](Contains%20Duplicate)
+ - [Valid  Anagram](Valid%20Anagram)
  
  ### 2. Linked Lists
  - [Remove Dups](Remove%20Dups)
