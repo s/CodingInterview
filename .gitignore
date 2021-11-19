@@ -89,3 +89,4 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+/CodingInterviewPractises.playground/Pages/CISP1.1.xcplaygroundpage/Contents.swift
