@@ -31,5 +31,7 @@
         <page name='Number of Islands'/>
         <page name='Contains Duplicate'/>
         <page name='Valid Anagram'/>
+        <page name='CISP1.1'/>
+        <page name='Weak Box'/>
     </pages>
 </playground>
