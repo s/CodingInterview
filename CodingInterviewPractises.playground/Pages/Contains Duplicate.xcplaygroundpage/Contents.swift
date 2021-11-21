@@ -29,6 +29,30 @@
 import Foundation
 
 /*
+ Runtime: 132 ms, faster than 73.68% of Swift online submissions for Contains Duplicate.
+ Memory Usage: 21.6 MB, less than 5.99% of Swift online submissions for Contains Duplicate.
+ */
+func ____containsDuplicate(_ nums: [Int]) -> Bool {
+    guard let max = nums.max() else { return true }
+    guard let min = nums.min() else { return true }
+    
+    let offset = 0 - min
+    
+    var arr = Array(repeating: 0, count: max + offset + 1)
+    
+    for num in nums {
+        let idx = num + offset
+        arr[idx] += 1
+    }
+    for elm in arr {
+        if elm >= 2 {
+            return true
+        }
+    }
+    return false
+}
+
+/*
  Runtime: 148 ms, faster than 63.66% of Swift online submissions for Contains Duplicate.
  Memory Usage: 15.8 MB, less than 62.23% of Swift online submissions for Contains Duplicate.
  */

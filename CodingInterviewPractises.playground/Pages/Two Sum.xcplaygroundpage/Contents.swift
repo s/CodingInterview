@@ -19,6 +19,23 @@ import Foundation
 import XCTest
 
 class Solution {
+    //Runtime: 48 ms, faster than 94.34% of Swift online submissions for Two Sum.
+    //Memory Usage: 15 MB, less than 8.30% of Swift online submissions for Two Sum.
+    func _twoSum(_ nums: [Int], _ target: Int) -> [Int] {
+        guard !nums.isEmpty else { return [] }
+        
+        var diffDict: [Int: [Int]] = [:]
+        for (idx, num) in nums.enumerated() {
+            if let arr = diffDict[num] {
+                return arr + [idx]
+            }
+            let diff = target - num
+            diffDict[diff, default: []].append(idx)
+        }
+        return []
+    }
+    
+    
     func twoSumSecondIteration(_ nums:[Int], _ target: Int) -> [Int] {
         var possiblePairs: [Int: Int] = [:]
         for (index, num) in nums.enumerated() {
