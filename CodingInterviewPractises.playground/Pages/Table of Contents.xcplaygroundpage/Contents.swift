@@ -152,6 +152,10 @@
  
  ### 20. Platform Questions
  - [Hit Test](Hit%20Test)
+ 
+ ### 21. Unclassified
+ - [Almost Valid Palindrome](Almost%20Valid%20Palindrome)
+ - [Valid Palindrome](Valid%20Palindrome)
 */
 
 /*:

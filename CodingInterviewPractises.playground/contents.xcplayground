@@ -2,6 +2,7 @@
 <playground version='6.0' target-platform='ios' display-mode='raw' buildActiveScheme='true' importAppTypes='true'>
     <pages>
         <page name='Table of Contents'/>
+        <page name='Almost Valid Palindrome'/>
         <page name='Add Two Numbers'/>
         <page name='Length of Longest Substring'/>
         <page name='Median of Two Sorted Arrays'/>
@@ -24,7 +25,6 @@
         <page name='Rotational Chipper'/>
         <page name='Hit Test'/>
         <page name='URLify'/>
-        <page name='Valid Palindrome'/>
         <page name='Valid Parentheses'/>
         <page name='Validate Binary Search Tree'/>
         <page name='Verifying an Alien Dictionary'/>
@@ -33,5 +33,7 @@
         <page name='Valid Anagram'/>
         <page name='CISP1.1'/>
         <page name='Weak Box'/>
+        <page name='CISP1.2'/>
+        <page name='Valid Palindrome'/>
     </pages>
 </playground>
