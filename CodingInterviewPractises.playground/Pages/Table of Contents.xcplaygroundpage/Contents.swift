@@ -156,6 +156,7 @@
  ### 21. Unclassified
  - [Almost Valid Palindrome](Almost%20Valid%20Palindrome)
  - [Valid Palindrome](Valid%20Palindrome)
+ - [Remove Duplicates From Sorted Array](Remove%20Duplicates%20From%20Sorted%20Array)
 */
 
 /*:

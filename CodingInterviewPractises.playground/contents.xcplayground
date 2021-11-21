@@ -35,5 +35,6 @@
         <page name='Weak Box'/>
         <page name='CISP1.2'/>
         <page name='Valid Palindrome'/>
+        <page name='Remove Duplicates From Sorted Array'/>
     </pages>
 </playground>
