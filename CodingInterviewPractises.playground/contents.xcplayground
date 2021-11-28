@@ -36,5 +36,7 @@
         <page name='CISP1.2'/>
         <page name='Valid Palindrome'/>
         <page name='Remove Duplicates From Sorted Array'/>
+        <page name='Maxımum Subarray'/>
+        <page name='CISP1.3'/>
     </pages>
 </playground>

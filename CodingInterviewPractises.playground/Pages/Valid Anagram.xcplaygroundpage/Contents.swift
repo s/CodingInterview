@@ -60,5 +60,27 @@ func isAnagram(_ s: String, _ t: String) -> Bool {
     return true
 }
 
-print(isAnagram("a", "ab"))
+/*
+ Runtime: 10 ms, faster than 94.57% of Swift online submissions for Valid Anagram.
+ Memory Usage: 14.4 MB, less than 71.06% of Swift online submissions for Valid Anagram.
+ */
+func __isAnagram(_ s: String, _ t: String) -> Bool {
+    guard !s.isEmpty, !t.isEmpty else { return false }
+    var dict: [UnicodeScalar: Int] = [:]
+    for char in s.unicodeScalars {
+        dict[char, default: 0] += 1
+    }
+    for char in t.unicodeScalars {
+        guard let cnt = dict[char] else { return false }
+        dict[char, default: 0] = cnt - 1
+    }
+    for v in dict.values {
+        if v != 0 {
+            return false
+        }
+    }
+    return true
+}
+
+print(__isAnagram("aä👌🏻", "a👌🏻ä"))
 //: [Next](@next)
