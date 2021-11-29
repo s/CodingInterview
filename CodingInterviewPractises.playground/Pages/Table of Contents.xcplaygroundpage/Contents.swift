@@ -157,6 +157,8 @@
  - [Almost Valid Palindrome](Almost%20Valid%20Palindrome)
  - [Valid Palindrome](Valid%20Palindrome)
  - [Remove Duplicates From Sorted Array](Remove%20Duplicates%20From%20Sorted%20Array)
+ - [Maximum Subarray](Maximum%20Subarray)
+ - [Best Time to Buy and Sell Stock](Best%20Time%20to%20Buy%20and%20Sell%20Stock)
 */
 
 /*:
