@@ -159,6 +159,8 @@
  - [Remove Duplicates From Sorted Array](Remove%20Duplicates%20From%20Sorted%20Array)
  - [Maximum Subarray](Maximum%20Subarray)
  - [Best Time to Buy and Sell Stock](Best%20Time%20to%20Buy%20and%20Sell%20Stock)
+ - [Kth Symbol Grammar](Kth%20Symbol%20Grammar)
+ - [Climbing Stairs](Climbing%20Stairs)
 */
 
 /*:
