@@ -161,6 +161,8 @@
  - [Best Time to Buy and Sell Stock](Best%20Time%20to%20Buy%20and%20Sell%20Stock)
  - [Kth Symbol Grammar](Kth%20Symbol%20Grammar)
  - [Climbing Stairs](Climbing%20Stairs)
+ - [Single Number](Single%20Number)
+ - [Plus One](Plus%20One)
 */
 
 /*:
