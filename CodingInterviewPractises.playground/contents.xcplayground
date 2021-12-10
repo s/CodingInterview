@@ -42,5 +42,6 @@
         <page name='Kth Symbol Grammar'/>
         <page name='Single Number'/>
         <page name='Plus One'/>
+        <page name='Reverse String'/>
     </pages>
 </playground>

@@ -163,6 +163,7 @@
  - [Climbing Stairs](Climbing%20Stairs)
  - [Single Number](Single%20Number)
  - [Plus One](Plus%20One)
+ - [Reverse String](Reverse%20String)
 */
 
 /*:
