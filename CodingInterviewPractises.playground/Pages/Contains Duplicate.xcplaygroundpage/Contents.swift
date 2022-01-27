@@ -28,6 +28,28 @@
 
 import Foundation
 
+
+// Doesn't work with negative numbers; Always ask if the array can contain negative numbers
+func _____containsDuplicate(_ nums: [Int]) -> Bool {
+    guard !nums.isEmpty else { return false }
+    guard let maxElm = nums.max() else { return false }
+    var counts: [Int] = []
+    for i in 0...maxElm {
+        counts.append(0)
+    }
+    
+    for elm in nums {
+        counts[elm] += 1
+    }
+    
+    for elm in counts {
+        if elm > 1 {
+            return true
+        }
+    }
+    return false
+}
+
 /*
  Runtime: 132 ms, faster than 73.68% of Swift online submissions for Contains Duplicate.
  Memory Usage: 21.6 MB, less than 5.99% of Swift online submissions for Contains Duplicate.
@@ -81,7 +103,7 @@ func _containsDuplicate(_ nums: [Int]) -> Bool {
 func containsDuplicate(_ nums: [Int]) -> Bool {
     var _numsStorage: [Int: Int] = [:]
     for num in nums {
-        if let v = _numsStorage[num] {
+        if let _ = _numsStorage[num] {
             return true
         }
         _numsStorage[num, default: 0] += 1

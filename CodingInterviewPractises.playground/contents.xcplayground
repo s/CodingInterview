@@ -43,5 +43,7 @@
         <page name='Single Number'/>
         <page name='Plus One'/>
         <page name='Reverse String'/>
+        <page name='Best Time to Buy and Sell Stock II'/>
+        <page name='Maximum Subarray'/>
     </pages>
 </playground>

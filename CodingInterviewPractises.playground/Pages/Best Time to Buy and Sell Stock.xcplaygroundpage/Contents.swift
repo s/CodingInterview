@@ -56,9 +56,7 @@ class Solution {
         var maxProfit = 0
         
         for i in 1..<prices.count {
-            if prices[i] < minEntry {
-                minEntry = prices[i]
-            }
+            minEntry = min(minEntry, prices[i])
             maxProfit = max(prices[i] - minEntry, maxProfit)
         }
         return maxProfit
